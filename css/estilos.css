@@ -328,6 +328,7 @@ footer {
     justify-content: space-evenly;
     width: 768px;
     height: 300px;
+    font-size: 18px;
     background-color: black;
     color: white;
 }
@@ -374,7 +375,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 768px;
-    height: 575px;
+    height: 700px;
     background-color: #A8D8EA;
 }
 
@@ -382,12 +383,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .info__titulosD {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .info__texto {
@@ -395,6 +398,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 /* Row 3 diseño */
@@ -414,7 +418,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 768px;
-    height: 130px;
+    height: 170px;
     background-color: #AA96DA;
 }
 
@@ -423,6 +427,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
 /* Row 5 diseño */
@@ -431,13 +436,14 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 768px;
-    height: 377px;
+    height: 450px;
 }
 
 .destacados__titulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 25px;
 }
 
 .destacados__texto {
@@ -445,6 +451,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 /* Row 5 diseño */
@@ -464,7 +471,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 768px;
-    height: 310px;
+    height: 360px;
     background-color: #7771E0;
 }
 
@@ -472,6 +479,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .texto__citaciones {
@@ -479,6 +487,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 .icon__citaciones {
@@ -547,6 +556,7 @@ footer {
     justify-content: space-evenly;
     width: 1023px;
     height: 300px;
+    font-size: 20px;
     background-color: black;
     color: white;
 }
@@ -593,7 +603,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     width: 1023px;
-    height: 575px;
+    height: 600px;
     background-color: #A8D8EA;
 }
 
@@ -601,12 +611,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .info__titulosD {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .info__texto {
@@ -614,6 +626,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 /* Row 3 diseño */
@@ -633,7 +646,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     width: 1023px;
-    height: 130px;
+    height: 160px;
     background-color: #AA96DA;
 }
 
@@ -642,6 +655,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
 /* Row 5 diseño */
@@ -650,13 +664,14 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     width: 1023px;
-    height: 377px;
+    height: 410px;
 }
 
 .destacados__titulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .destacados__texto {
@@ -664,6 +679,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 /* Row 5 diseño */
@@ -683,7 +699,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     width: 1023px;
-    height: 310px;
+    height: 340px;
     background-color: #7771E0;
 }
 
@@ -691,6 +707,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 30px;
 }
 
 .texto__citaciones {
@@ -698,6 +715,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 .icon__citaciones {
@@ -705,7 +723,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     position: relative;
-    left: 360px;
+    left: 500px;
     width: 55px;
 }
 
