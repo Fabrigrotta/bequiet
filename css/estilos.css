@@ -28,12 +28,6 @@ a:hover {
     position: center;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 li {
     list-style: none;
     color: rgb(0, 0, 0);
@@ -496,7 +490,6 @@ footer {
     width: 55px;
 }
 
-
 /* Grids */
 /* Home */
 .homeGrid {
@@ -535,6 +528,220 @@ footer {
 /* Mediaquery Tablet */
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex: row;
+    margin: 3rem;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 1023px;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+.divFormulario__ingreso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer__texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* DISEÑO HOME */
+.info__boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Row 1 diseño */
+.img__registro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.publiHori {
+    width: 1023px;
+}
+
+/* Row 2 diseño */
+.info__registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1023px;
+    height: 575px;
+    background-color: #A8D8EA;
+}
+
+.info__titulosU {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info__titulosD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Row 3 diseño */
+.img__verTodos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.publiHori1 {
+    width: 1023px;
+}
+
+/* Row 4 diseño */
+.info__verTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1023px;
+    height: 130px;
+    background-color: #AA96DA;
+}
+
+.info__tituloVT {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* Row 5 diseño */
+.info__destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1023px;
+    height: 377px;
+}
+
+.destacados__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.destacados__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Row 5 diseño */
+.img__citaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.citaciones {
+    width: 1023px;
+}
+
+/* Row 6 diseño */
+.info__citaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1023px;
+    height: 310px;
+    background-color: #7771E0;
+}
+
+.titulo__citaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto__citaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.icon__citaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 360px;
+    width: 55px;
+}
+
+/* Grids */
+/* Home */
+.homeGrid {
+    display: grid;
+    grid-template-areas:
+    "homeHeader homeHeader homHeader"
+    "homeMain homeMain homeMain"
+    "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+}
+
+.homeHeader {
+    display: grid;
+    grid-template-areas:
+    "logo divNav divNav divNav";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+.homeMain {
+    display: grid;
+    grid-template-areas:
+    "img__registro"
+    "info__registro"
+    "img__verTodos"
+    "info__verTodos"
+    "info__destacados"
+    "img__citaciones"
+    "info__citaciones";
+    grid-template-columns: 1fr;
+    grid-row: 398px auto auto auto auto auto auto;
+}
 }
 
 /* Mediaquery Desktop */
