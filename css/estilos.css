@@ -1073,6 +1073,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+    z-index: 20;
 }
 
 /* DISEÑO HOME */
