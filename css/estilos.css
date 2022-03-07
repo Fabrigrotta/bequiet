@@ -981,6 +981,211 @@ footer {
     width: 55px;
 }
 
+/* DISEÑO PRODUCTOS */
+/* Todos los textos */
+.tituloProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.textoProductos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+/* Botones */
+.productoTalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.productoBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* Todas las IMG */
+.todas__img {
+    max-width: 1023px;
+}
+
+.divTodas__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* Todas los DIV de INFO */
+.divTodas__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1023px;
+    height: 870px;
+}
+
+
+/* Row 1 diseño */
+.divColor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 1023px;
+    height: 800px;
+    z-index: 10;
+    background-color: #af3b82;
+}
+
+.tituloHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 60px;
+    max-width: 1023px;
+    width: 700px;
+    height: 760px;
+}
+
+.divNav__p {
+    position: absolute;
+    left: 110px;
+    z-index: 20;
+}
+
+.logoprod {
+    z-index: 20;
+    position: absolute;
+}
+
+/* Row 2 diseño */
+.bgFoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+/* Row 3 diseño */
+.productoDestacado__img {
+    background-color: #FBF8F1;
+}
+
+/* Row 4 diseño */
+.productoDestacado {
+    background-color: #FBF8F1;
+}
+
+/* Row 5 diseño */
+.productoDestacado__img1 {
+    background-color: #F7ECDE;
+}
+
+/* Row 6 diseño */
+.productoDestacado1 {
+    background-color: #F7ECDE;
+}
+
+/* Row 7 diseño */
+.linea {
+    max-width: 1023px;
+    height: 50px;
+    background-color: #000;
+}
+
+/* Row 9 diseño */
+.productosTodos__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #FF895D;
+    height: 250px;
+}
+
+.productosTodos__titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 100;
+    padding-left: 190px;
+}
+
+/* Row 10 diseño */
+.producto1__foto {
+    background-color: #C1A3A3;
+}
+
+/* Row 11 diseño */
+.producto1__info {
+    background-color: #C1A3A3;
+}
+
+/* Row 12 diseño */
+.producto2__foto {
+    background-color: #F3C5C5;
+}
+
+/* Row 13 diseño */
+.producto2__info {
+    background-color: #F3C5C5;
+}
+
+/* Row 14 diseño */
+.producto3__foto {
+    background-color: #FDEBF7;
+}
+
+/* Row 15 diseño */
+.producto3__info {
+    background-color: #FDEBF7;
+}
+
+/* Row 16 diseño */
+.producto4__foto {
+    background-color: #FBCAFF;
+}
+
+/* Row 17 diseño */
+.producto4__info {
+    background-color: #FBCAFF ;
+}
+
+/* Row 18 diseño */
+.producto5__foto {
+    background-color: #E5E3C9;
+}
+
+/* Row 19 diseño */
+.producto5__info {
+    background-color: #E5E3C9;
+}
+
+/* Row 20 diseño */
+.producto6__foto {
+    background-color: #B4CFB0;
+}
+
+/* Row 21 diseño */
+.producto6__info {
+    background-color: #B4CFB0;
+}
+
+
 /* Grids */
 /* Home */
 .homeGrid {
@@ -1013,6 +1218,53 @@ footer {
     "info__citaciones";
     grid-template-columns: 1fr;
     grid-row: 398px auto auto auto auto auto auto;
+}
+
+/* Productos */
+.productosGrid {
+    display: grid;
+    grid-template-areas:
+    "productosHeader productosHeader productosHeader"
+    "productosMain productosMain productosMain"
+    "footer footer footer";
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: auto auto auto;
+}
+
+.productosHeader {
+    display: grid;
+    grid-template-areas:
+    "divColor divColor"
+    "divNav divNav"
+    "bgFoto bgFoto";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+}
+
+.productosMain {
+    display: grid;
+    grid-template-areas:
+    "productoDestacado__img"
+    "productoDestacado"
+    "productoDestacado__img1"
+    "productoDestacado1"
+    "linea"
+    "productosTodos__img"
+    "productosTodos__info"
+    "producto1__foto"
+    "producto1__info"
+    "producto2__foto"
+    "producto2__info"
+    "producto3__foto"
+    "producto3__info"
+    "producto4__foto"
+    "producto4__info"
+    "producto5__foto"
+    "producto5__info"
+    "producto6__foto"
+    "producto6__info";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto 376px auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 }
 
@@ -1425,4 +1677,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto auto 702px auto auto auto auto auto auto auto;
 }
+
+/* Nosotros */
+
 }
